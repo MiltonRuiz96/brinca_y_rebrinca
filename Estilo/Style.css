@@ -88,4 +88,14 @@ footer {
   font-weight: bold;
 }
 
+.mi-carrusel {
+  width: 720px;
+  height: 210px;
+}
+
+.mi-carrusel .carousel-item {
+  width: 720px;
+  height: 210px;
+}
+
 /* Footer */
