@@ -1,17 +1,9 @@
-/*Paleta de colores*/
-/*#DFA67B
-#F4B183
-#FFD966
-FFF2CC
-*/
-/*font family  =  'Poppins', sans-serif;  */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
 html {
   font-size: 62.5%;
   font-family: "Poppins", sans-serif;
 }
 
-/* header */
 header {
   background-color: #fff2cc;
 }
@@ -65,7 +57,6 @@ header h1 {
   justify-content: center;
 }
 
-/* Footer */
 footer {
   width: 100%;
   position: absolute;
@@ -87,6 +78,50 @@ footer info {
   height: 210px;
 }
 
-/* Footer */
+@media only screen and (max-width: 500px) {
+  header img {
+    width: 50px;
+  }
+  header ul a {
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 350;
+  }
+  header h1 {
+    font-size: 1.1rem;
+    color: #dfa67b;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+  }
+  .caja {
+    padding: 5px;
+    background-color: rgba(255, 115, 0, 0.831372549);
+    width: 20%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background-color: #fff2cc;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  footer info {
+    font-weight: bold;
+  }
+  .mi-carrusel {
+    width: 360px;
+    height: 105px;
+  }
+  .mi-carrusel .carousel-item {
+    width: 360px;
+    height: 105px;
+  }
+}
 
 /*# sourceMappingURL=estilos.css.map */
